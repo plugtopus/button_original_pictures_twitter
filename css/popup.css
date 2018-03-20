@@ -1,0 +1,65 @@
+*,
+main {
+    padding: 0
+}
+
+*,
+p {
+    margin: 0
+}
+
+* {
+    font-family: Roboto, Helvetica, Arial, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif !important;
+    font-size: 14px
+}
+
+body {
+    min-width: 260px
+}
+
+main {
+    margin: 6px 12px
+}
+
+hr {
+    margin: 2px 0
+}
+
+.mdl-layout__header-row,
+header {
+    width: 100%;
+    min-height: 0 !important;
+    height: 50px !important;
+    padding: 0 !important
+}
+
+.mdl-layout__header-row>span {
+    margin: auto
+}
+
+.mdl-checkbox.is-upgraded {
+    margin-left: 10px
+}
+
+.title {
+    font-size: 1.1em
+}
+
+.service>.title {
+    font-weight: 700
+}
+
+.situation {
+    margin: 0 3px 3px;
+    padding: 0 5px;
+    border-left: 2px solid #3f51b5
+}
+
+.save-button {
+    margin-top: 10px
+}
+
+.mdl-logo {
+    margin: 0;
+    padding: 10px 0 10px 30px
+}

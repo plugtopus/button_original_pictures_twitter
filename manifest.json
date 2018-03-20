@@ -1,0 +1,36 @@
+{
+    "author": "Plugtopus Agency",
+    "background": {
+        "persistent": false,
+        "scripts": ["js/bg.js"]
+    },
+    "browser_action": {
+        "default_icon": "icons/icon.png",
+        "default_popup": "html/popup.html",
+        "default_title": "__MSG_title__"
+    },
+    "content_scripts": [{
+        "js": ["js/main.js"],
+        "matches": ["https://twitter.com/*"]
+    }, {
+        "js": ["js/tweetdeck.js"],
+        "matches": ["https://tweetdeck.twitter.com/*"]
+    }, {
+        "js": ["js/imagetab.js"],
+        "matches": ["https://pbs.twimg.com/*"]
+    }],
+    "default_locale": "ru",
+    "description": "__MSG_desc__",
+    "homepage_url": "https://plugtopus.agency",
+    "icons": {
+        "128": "icons/icon.png",
+        "16": "icons/icon.png",
+        "48": "icons/icon.png"
+    },
+    "manifest_version": 2,
+    "name": "__MSG_name__",
+    "options_page": "html/popup.html",
+    "permissions": ["tabs"],
+    "update_url": "https://clients2.google.com/service/update2/crx",
+    "version": "20.3.18.1"
+}

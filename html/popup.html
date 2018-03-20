@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Кнопка открыть изображение в оригинале</title>
+  <link rel="stylesheet" href="../css/material.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" type="text/css" href="../css/popup.css">
+</head>
+
+<body>
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+        <span class="mdl-layout__title">Опции</span>
+      </div>
+    </header>
+    <main>
+      <section class="modeselect">
+        <hr>
+        <div>
+          <div class="service">
+            <p class="title">TweetDeck</p>
+            <div class="situation">
+              <div>
+                <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect mdl-js-ripple-effect--ignore-events is-checked is-upgraded"
+                  for="checkbox-5">
+                  <input type="checkbox" id="checkbox-5" class="mdl-checkbox__input mode SHOW_ON_TWEETDECK_TIMELINE" checked>
+                  <span class="mdl-checkbox__label">
+                    <b>Кнопка</b></span>
+                </label>
+              </div>
+              <div>
+                <p class="title">Подробности</p>
+                <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect mdl-js-ripple-effect--ignore-events is-checked is-upgraded"
+                  for="checkbox-6">
+                  <input type="checkbox" id="checkbox-6" class="mdl-checkbox__input mode SHOW_ON_TWEETDECK_TWEET_DETAIL" checked>
+                  <span class="mdl-checkbox__label">
+                    <b>Кнопка</b></span>
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <div class="save-button">
+        <button id="save" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+          Сохранить настройку
+        </button>
+      </div>
+    </main>
+  </div>
+  <script src="../js/material.min.js"></script>
+  <script src="../js/popup.js"></script>
+</body>
+
+</html>
